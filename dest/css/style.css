@@ -5,6 +5,8 @@
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     gap: 4rem;
+
+    
 }
 
 #convert {
@@ -20,4 +22,19 @@
 
 #convert:hover {
     background-color: rgb(9, 216, 9);
+}
+
+
+@media only screen and (max-width: 600px){
+    #container {
+        grid-template-columns: 1fr;
+    }
+
+    video {
+        max-width: 300px;
+    }
+
+    img{
+        max-width: 300px;
+    }
 }
