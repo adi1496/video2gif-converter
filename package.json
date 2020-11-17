@@ -1,0 +1,27 @@
+{
+  "name": "video2gif-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "parcel ./src/index.js --out-dir ./dest --out-file bundle.js",
+    "build": "parcel build ./src/index.js --out-dir ./dest --out-file bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adi1496/video2gif-converter.git"
+  },
+  "author": "Adrian Matei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adi1496/video2gif-converter/issues"
+  },
+  "homepage": "https://github.com/adi1496/video2gif-converter#readme",
+  "dependencies": {
+    "@ffmpeg/core": "^0.8.4",
+    "@ffmpeg/ffmpeg": "^0.9.5"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  }
+}

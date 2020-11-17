@@ -1,0 +1,23 @@
+#container {
+    max-width: 1200px;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 4rem;
+}
+
+#convert {
+    grid-column: 1 / -1;
+    justify-self: center;
+    border: none;
+    height: 4rem;
+    width: 8rem;
+    background-color: green;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+#convert:hover {
+    background-color: rgb(9, 216, 9);
+}
